@@ -3,13 +3,13 @@
 
 #include <QWidget>
 
-class Widget : public QWidget
+class RuncatWidget : public QWidget
 {
     Q_OBJECT
 
 public:
-    Widget(QWidget *parent = nullptr);
-    ~Widget() override;
+    RuncatWidget(QWidget *parent = nullptr);
+    ~RuncatWidget() override;
 
 protected:
     virtual void paintEvent(QPaintEvent *event) override;
